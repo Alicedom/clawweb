@@ -1,8 +1,7 @@
 package claw.web.data.article;
 
-import claw.web.data.connect.Html;
 import claw.web.data.shortdata.DataCategory;
-import org.jsoup.nodes.Document;
+import claw.web.data.connect.Html;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import org.junit.Before;

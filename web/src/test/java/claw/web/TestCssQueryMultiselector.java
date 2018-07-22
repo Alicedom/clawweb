@@ -1,12 +1,8 @@
 package claw.web;
 
-import claw.web.entry.Entry;
-import claw.web.html.Html;
+import claw.web.data.connect.Html;
 import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
-
-import java.util.List;
 
 public class TestCssQueryMultiselector {
     public static void main(String[] args) {
