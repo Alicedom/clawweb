@@ -1,23 +1,22 @@
 package claw.web.data.fulldata;
 
-import org.jsoup.nodes.Element;
-import org.jsoup.select.Elements;
 
 import java.util.*;
 
 public class Article {
     private String url; //url from short html
-    private Element element; // short html from category
     private Map<String, String> textMap; // title, sapo, date, author, tag. category???
+    private String element; // short html from category
+    private String body; //body content
     private List<String> srcList; // url src. feature image is first img in list
     private Map<String,String> hrefMap; // href in tagname/ text referance
-    private Elements body; //body content
+
 
     public Article(String url) {
         this.url = url;
         textMap = new TreeMap<>();
         srcList = new LinkedList<>();
-        body = new Elements();
+        body = "";
     }
 
     public String getUrl() {
@@ -28,11 +27,11 @@ public class Article {
         this.url = url;
     }
 
-    public Element getElement() {
+    public String getElement() {
         return element;
     }
 
-    public void setElement(Element element) {
+    public void setElement(String element) {
         this.element = element;
     }
 
@@ -52,23 +51,19 @@ public class Article {
         this.srcList = srcList;
     }
 
-    public Elements getHtmlList() {
+    public String getBody() {
         return body;
     }
 
-    public void setHtmlList(Elements body) {
+    public void setBody(String body) {
         this.body = body;
     }
 
-    @Override
-    public String toString() {
-        return "DataArticle{" +
-                "url='" + url + '\'' +
-                ", textMap=" + textMap +
-                ", element=" + element +
-                ", body=" + body +
-                ", srcList=" + srcList +
-                ", hrefMap=" + hrefMap +
-                '}';
+    public Map<String, String> getHrefMap() {
+        return hrefMap;
+    }
+
+    public void setHrefMap(Map<String, String> hrefMap) {
+        this.hrefMap = hrefMap;
     }
 }

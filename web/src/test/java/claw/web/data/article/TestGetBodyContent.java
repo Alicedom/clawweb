@@ -1,7 +1,7 @@
 //package claw.web.data.article;
 //
-//import claw.web.article.article.Article;
 //import claw.web.data.entry.Url;
+//import claw.web.data.fulldata.Article;
 //import claw.web.data.fulldata.DataArticle;
 //import org.jsoup.Jsoup;
 //import org.jsoup.nodes.Document;

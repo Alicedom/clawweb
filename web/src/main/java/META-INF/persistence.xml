@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+
+    <persistence-unit name="NewPersistenceUnit">
+        <class>claw.web.api.entity.WpLinks</class>
+        <class>claw.web.api.entity.WpOptions</class>
+        <class>claw.web.api.entity.WpPostmeta</class>
+        <class>claw.web.api.entity.WpPosts</class>
+        <class>claw.web.api.entity.WpTermRelationships</class>
+        <class>claw.web.api.entity.WpTermTaxonomy</class>
+        <class>claw.web.api.entity.WpTermmeta</class>
+        <class>claw.web.api.entity.WpTerms</class>
+        <class>claw.web.api.entity.WpUsermeta</class>
+        <class>claw.web.api.entity.WpUsers</class>
+        <properties>
+            <property name="toplink.jdbc.url" value="jdbc:mysql://localhost:3306/wordpress"/>
+            <property name="toplink.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+            <property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/wordpress"/>
+            <property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver"/>
+            <property name="openjpa.ConnectionURL" value="jdbc:mysql://localhost:3306/wordpress"/>
+            <property name="openjpa.ConnectionDriverName" value="com.mysql.jdbc.Driver"/>
+            <property name="eclipselink.jdbc.url" value="jdbc:mysql://localhost:3306/wordpress"/>
+            <property name="eclipselink.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+        </properties>
+    </persistence-unit>
+</persistence>

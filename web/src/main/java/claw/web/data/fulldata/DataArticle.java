@@ -52,23 +52,30 @@ public class DataArticle {
         return mapText;
     }
 
-    public Elements setBody(Element element, List<String> cssSelectorContent, String cssRemoveContent){
+    public Elements setBody(Element element, List<String> cssSelectorContent, String cssRemoveContent, String preURL, String replace){
 
         element.select(cssRemoveContent).remove();
         Elements body = new Elements();
         cssSelectorContent.forEach(x->body.addAll(element.select(x)));
 
+        article.setBody(body.toString().replace(preURL,replace));
         return body;
     }
 
-    List<String> setSrc(Elements content){
+    public List<String> setSrc(Elements content){
         List<String> list =  Src.getListAllSourceRecursive(content,"","");
         article.setSrcList(list);
         return list;
 
     }
 
-    Map<String, String> setHref(Element content, String include, String exclude){
+    public Map<String, String> setHref(Element content, String include, String exclude){
+        Map<String, String> map = Href.getMapHrefRecursives(content,"","a",include,exclude);
+        article.setHrefMap(map);
+        return map;
+    }
+
+    public Map<String, String> setHref(Elements content, String include, String exclude){
         Map<String, String> map = Href.getMapHrefRecursives(content,"","a",include,exclude);
         article.setTextMap(map);
         return map;
@@ -98,7 +105,7 @@ public class DataArticle {
             }
         }
 
-        article.setHtmlList(content);
+        article.setBody(content.toString());
         article.setSrcList(listSrc);
     }
 }

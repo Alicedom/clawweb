@@ -3,9 +3,10 @@ package claw.web.data.shortdata;
 import claw.web.data.entry.Href;
 import claw.web.data.fulldata.Article;
 import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -13,6 +14,8 @@ import java.util.List;
 get entry and short html on category
  */
 public class DataCategory {
+    private final static Logger logger = LoggerFactory.getLogger(DataCategory.class);
+
     private Element html;
     private int minAccept, maxAccept;
 
@@ -40,26 +43,30 @@ public class DataCategory {
     @include: str rule to choice url. If you have no rule, set null or ""
     @exclude: str rule to reject url. If you have no rule, set null or ""
      */
-    public List<Article> getEntriesOnCategory(String cssSelector, String cssSelectorSmaller, String include, String exclude) {
+    public List<Article> getArticlesOnCategory(String cssSelector, String cssSelectorSmaller, String include, String exclude) {
         List<Article> dataArticleList = new LinkedList<>();
 
         if(cssSelector == null || cssSelector.equals("")){
+            logger.info("cssSelector null");
 
         }else{
             for (Element x : html.select(cssSelector)) {
-                List<String> url = Href.getListHrefRecursives(x, "a", cssSelectorSmaller, include, exclude);
+                logger.info("x: "+x.toString());
+                List<String> urlList = Href.getListHrefRecursives(x, cssSelectorSmaller, "a", include, exclude);
 
-                if (url == null || url.size() == 0) {
+                if (urlList == null || urlList.size() == 0) {
+                    logger.info("url size null");
 
                 } else {
-                    Article data = new Article(url.get(0));
-                    data.setElement(x);
+                    Article data = new Article(urlList.get(0));
+                    data.setElement(x.toString());
                     dataArticleList.add(data);
                 }
             }
 
             if((minAccept > 0 && minAccept > dataArticleList.size())
                     || (maxAccept > 0 && maxAccept < dataArticleList.size())){
+                logger.info("bind data");
                 dataArticleList = new LinkedList<>();
             }
         }
@@ -67,7 +74,7 @@ public class DataCategory {
         return dataArticleList;
     }
 
-    public  List<String> getEntriesOnCategory(String cssSelector, String include, String exclude){
+    public List<String> getEntriesOnCategory(String cssSelector, String include, String exclude){
         return Href.getListHrefRecursives(html,cssSelector,"a",include,exclude);
     }
 
