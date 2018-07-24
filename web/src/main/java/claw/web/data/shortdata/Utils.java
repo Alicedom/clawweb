@@ -30,4 +30,8 @@ public class Utils {
 
         return map;
     }
+
+    public static String cleanURL(String url){
+        return url.replace(" ","%20");
+    }
 }

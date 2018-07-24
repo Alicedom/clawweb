@@ -19,20 +19,20 @@ public class StoredProcedureExample {
             stmt.setDate(2, null);
 
             //  IN title MEDIUMTEXT,
-            stmt.setString(3, "3");
+            stmt.setString(3, "title");
             //   IN sapo MEDIUMTEXT,
             stmt.setString(4, "4");
 //            IN content LONGTEXT,
 
-            stmt.setString(5, "5");
+            stmt.setString(5, "content");
 //                    IN STATUS VARCHAR (20),
-            stmt.setString(6, "6");
+            stmt.setString(6, "publish");
 //                    IN NAME VARCHAR (200),
-            stmt.setString(7, "7");
+            stmt.setString(7, "url-name");
 //                    IN parent BIGINT,
-            stmt.setInt(8, 234343);
+            stmt.setInt(8, 0);
 //            IN TYPE VARCHAR (20),
-            stmt.setString(9, "9");
+            stmt.setString(9, "post");
 //                    IN origin VARCHAR (300),
             stmt.setString(10, "10");
 //                    IN origin_link VARCHAR (1000),
@@ -50,7 +50,7 @@ public class StoredProcedureExample {
 //            IN categorylist TEXT,
             stmt.setString(17, "17");
 //                    OUT news_id BIGINT,
-            stmt.setInt(3, 15);
+            stmt.setInt(18, 15);
             stmt.registerOutParameter(18, Types.BIGINT);
 //            IN news_date VARCHAR (200)
             stmt.setString(19, "19");

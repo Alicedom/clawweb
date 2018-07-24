@@ -1,5 +1,6 @@
 package claw.web.data.entry;
 
+import claw.web.data.shortdata.Utils;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
@@ -39,12 +40,12 @@ public class Src {
             }
 
             elements.forEach(x->{
-                String url = x.select(type+"[src]").attr("src");
+                String url = x.select(type+"[src]").attr("abs:src");
                 listSrc.add(url);
             });
         }
 
-        return listSrc;
+        return Utils.clean(listSrc);
 
     }
 
@@ -71,12 +72,12 @@ public class Src {
             }
 
             elements.select(type+"[src]").forEach(x->{
-                String url = x.attr("src");
+                String url = x.attr("abs:src");
                 listSrc.add(url);
             });
         }
 
-        return listSrc;
+        return Utils.clean(listSrc);
     }
 
     public static Elements getListAllSourceRecursiveElements(Element html, String cssSelector, String type){

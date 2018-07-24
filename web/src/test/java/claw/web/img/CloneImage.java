@@ -5,6 +5,7 @@ import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
 
 import javax.imageio.ImageIO;
+import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.*;
 import java.net.MalformedURLException;
@@ -110,7 +111,18 @@ public class CloneImage {
 
     }
 
-    private class DownloadImage1 implements Runnable {
+    public static void main(String[] args) {
+//        new DownloadImage1("http:\\triethoc.edu.vn\\resources\\uploaded\\TrietHoc\\Files\\Danh%20nhan%20triet%20hoc\\2018-0000-67878.jpg",
+//                "asd").run();
+        Image image = null;
+        try {
+            URL url = new URL("http://triethoc.edu.vn\\resources\\uploaded\\TrietHoc\\Files\\Danh%20nhan%20triet%20hoc\\2018-0000-67878.jpg");
+            image = ImageIO.read(url);
+        } catch (IOException e) {
+        }
+    }
+
+    private static class DownloadImage1 implements Runnable {
 
         private String link;
         private String cloneFile;

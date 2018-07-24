@@ -66,4 +66,16 @@ public class Article {
     public void setHrefMap(Map<String, String> hrefMap) {
         this.hrefMap = hrefMap;
     }
+
+    @Override
+    public String toString() {
+        return "Article{" +
+                "url='" + url + '\'' +
+                ", textMap=" + textMap +
+                ", element='" + element + '\'' +
+                ", body='" + body + '\'' +
+                ", srcList=" + srcList +
+                ", hrefMap=" + hrefMap +
+                '}';
+    }
 }

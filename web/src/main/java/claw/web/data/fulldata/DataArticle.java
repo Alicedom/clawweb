@@ -54,7 +54,12 @@ public class DataArticle {
 
     public Elements setBody(Element element, List<String> cssSelectorContent, String cssRemoveContent, String preURL, String replace){
 
-        element.select(cssRemoveContent).remove();
+        if(cssRemoveContent == null || cssRemoveContent == ""){
+
+        }else{
+            element.select(cssRemoveContent).remove();
+        }
+
         Elements body = new Elements();
         cssSelectorContent.forEach(x->body.addAll(element.select(x)));
 
@@ -63,6 +68,13 @@ public class DataArticle {
     }
 
     public List<String> setSrc(Elements content){
+        List<String> list =  Src.getListAllSourceRecursive(content,"","");
+        article.setSrcList(list);
+        return list;
+
+    }
+
+    public List<String> setSrc(Element content){
         List<String> list =  Src.getListAllSourceRecursive(content,"","");
         article.setSrcList(list);
         return list;

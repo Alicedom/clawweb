@@ -14,7 +14,7 @@ public class Main {
     public static void main(String[] args) {
         try {
             String content = "{'title': 'This is a post','content_raw': 'This is some content'}";
-            URL url = new URL("http://localhost:9000/wordpress/wp-json/wp/v2/posts/5");
+            URL url = new URL("http://localhost:9000/wordpress/wp-json/wp/v2/posts/1");
 
             HttpURLConnection conn = (HttpURLConnection)url.openConnection();
             conn.setRequestMethod("POST");
