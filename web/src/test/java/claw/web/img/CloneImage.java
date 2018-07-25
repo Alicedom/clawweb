@@ -13,6 +13,7 @@ import java.net.URL;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
+import java.util.Base64;
 
 /*
 2 cach Download,  cho 14 File
@@ -112,14 +113,18 @@ public class CloneImage {
     }
 
     public static void main(String[] args) {
-//        new DownloadImage1("http:\\triethoc.edu.vn\\resources\\uploaded\\TrietHoc\\Files\\Danh%20nhan%20triet%20hoc\\2018-0000-67878.jpg",
-//                "asd").run();
-        Image image = null;
-        try {
-            URL url = new URL("http://triethoc.edu.vn\\resources\\uploaded\\TrietHoc\\Files\\Danh%20nhan%20triet%20hoc\\2018-0000-67878.jpg");
-            image = ImageIO.read(url);
-        } catch (IOException e) {
-        }
+        String url1 = "http://triethoc.edu.vn\\resources\\uploaded\\TrietHoc\\Files\\Danh%20nhan%20triet%20hoc\\2018-0000-67878.jpg";
+        String url2 = "http://triethoc.edu.vn/resources/uploaded/TrietHoc/Files/Thuyết Duy tâm Đức/georg-wilhelm-friedrich-hegel-3.jpg";
+
+        new DownloadImage1(url2,
+                "D:\\Download\\asd.jpg").run();
+//        Image image = null;
+//        try {
+//            URL url = new URL(url2);
+//            image = ImageIO.read(url);
+//
+//        } catch (IOException e) {
+//        }
     }
 
     private static class DownloadImage1 implements Runnable {
@@ -132,11 +137,19 @@ public class CloneImage {
         }
 
         public void run() {
-            URL url = null;
+            URL url;
             try {
-                url = new URL(link);
+                url = new URL("http://triethoc.edu.vn/resources/uploaded/TrietHoc/Files/Thuy%E1%BA%BFt%20Duy%20t%C3%A2m%20%C4%90%E1%BB%A9c/georg-wilhelm-friedrich-hegel-3.jpg");
 
-                InputStream in = new BufferedInputStream(url.openStream());
+                String url1= "http://triethoc.edu.vn/resources/uploaded/TrietHoc/Files/Thuyết Duy tâm Đức/georg-wilhelm-friedrich-hegel-3.jpg";
+// url = new URL(java.net.URLEncoder.encode(link, "UTF-8").replace("%3A",":").replace("%2F","/"));
+                System.out.println(java.net.URLEncoder.encode(url1, "UTF-8").replace("%3A",":").replace("%2F","/"));
+                System.out.println(new String(url1.getBytes("UTF-8"),"ASCII"));
+//                System.out.println(Base64.getEncoder().encodeToString(url1.getBytes()));
+//                System.out.println(Base64.getDecoder().decode(url1));
+                System.out.println(url.toString());
+
+                InputStream in = new BufferedInputStream(new URL(url1).openStream());
                 ByteArrayOutputStream out = new ByteArrayOutputStream();
                 byte[] buf = new byte[1024];
                 int n = 0;

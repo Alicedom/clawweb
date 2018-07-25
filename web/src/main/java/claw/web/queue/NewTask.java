@@ -1,8 +1,6 @@
 package claw.web.queue;
-
 import claw.web.data.connect.Html;
 import claw.web.data.entry.Href;
-import claw.web.data.shortdata.Utils;
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConnectionFactory;
@@ -20,7 +18,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeoutException;
 
 public class NewTask {
-    private final static Logger logger = LoggerFactory.getLogger(Worker.class);
+    private final static Logger logger = LoggerFactory.getLogger(NewTask.class);
 
     private static final String TASK_QUEUE_NAME = "url_queue";
 

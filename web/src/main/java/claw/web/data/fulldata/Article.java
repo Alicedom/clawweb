@@ -1,13 +1,13 @@
 package claw.web.data.fulldata;
 
-
 import java.util.*;
 
 public class Article {
     private String url; //url from short html
-    private Map<String, String> textMap; // title, sapo, date, author, tag. category???
-    private String element; // short html from category
+    private Map<String, String> textMap; // title, sapo, date, author, tag, category
     private String body; //body content
+
+    private String element; // short html from category
     private List<String> srcList; // url src. feature image is first img in list
     private Map<String,String> hrefMap; // href in tagname/ text referance
 

@@ -1,5 +1,7 @@
 package claw.web.data.shortdata;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.*;
 
 public class Utils {
@@ -21,17 +23,42 @@ public class Utils {
         return map;
     }
 
-    public static <K,V> Map<K,V> convertMap(K k, List<V> list){
+    public static <K,V> Map<K,V> convert(K k, List<V> list){
         Map<K,V> map = new HashMap<>();
 
-        list.forEach(x->{
-            map.put(k,x);
-        });
+        if(k != null){
+            list.forEach(x->{
+                map.put(k,x);
+            });
+        }
 
         return map;
     }
 
-    public static String cleanURL(String url){
-        return url.replace(" ","%20");
+    public static <K,V> List<V> convert(Map<K,V> map){
+        List<V> list = new LinkedList<>();
+
+        map.forEach((k,v)->{
+           if (v != null){
+               list.add(v);
+           }
+        });
+
+        return list;
+    }
+
+    private static void checkAndCreateNewFile(String file) {
+        File log = new File(file);
+
+        if (!log.exists()) {
+            try {
+
+                log.getParentFile().mkdirs();
+                log.createNewFile();
+
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
     }
 }

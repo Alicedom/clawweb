@@ -26,7 +26,7 @@ public class Src {
 
     }
 
-    public static List<String> getListOneSource(Element html, String cssSelector, String type){
+    public static List<String> getListOneSource(Element html, String cssSelector, String type, String include, String exclude){
         List<String> listSrc = new LinkedList<>();
 
         if(html == null){
@@ -39,12 +39,21 @@ public class Src {
                 elements = html.select(cssSelector);
             }
 
-            elements.forEach(x->{
-                String url = x.select(type+"[src]").attr("abs:src");
-                listSrc.add(url);
-            });
-        }
+            for (Element x : elements) {
+                for (Element y : x.select(type + "[src]")) {
+                    String url = y.attr("abs:src");
+                    if(url == null
+                            || (include != null && !include.equals("") && ! url.contains(include))
+                            || (exclude != null && !exclude.equals("") && url.contains(exclude))){
 
+                    }else{
+//                    logger.info("url: "+url);
+                        listSrc.add(url);
+                        break;
+                    }
+                }
+            }
+        }
         return Utils.clean(listSrc);
 
     }
