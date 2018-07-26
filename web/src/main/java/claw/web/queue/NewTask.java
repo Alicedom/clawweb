@@ -31,7 +31,6 @@ public class NewTask {
 
     private static String url = "http://triethoc.edu.vn";
     private static String cssSelector = "#ctl00_Default1__Body > div > div.page-wrapper.home-wrapper > div > div > ul > li > div";
-
     private static String type = "a";
     private static String include = ".html";
     private static String exclude = "";
@@ -40,7 +39,7 @@ public class NewTask {
     public static void main(String[] argv) throws Exception {
         Runnable runnable = new DownloadFileRunnable();
         ScheduledExecutorService darkService = Executors.newScheduledThreadPool(5);
-        darkService.scheduleWithFixedDelay(runnable, 0, 5, TimeUnit.MINUTES);
+        darkService.scheduleWithFixedDelay(runnable, 0, 1, TimeUnit.MINUTES);
     }
 
     private static class DownloadFileRunnable implements Runnable {

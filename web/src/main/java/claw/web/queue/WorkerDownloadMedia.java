@@ -18,7 +18,8 @@ public class WorkerDownloadMedia {
 
     //    public static final String replaceURL = "http://s1.doc.edu.vn/web/viewer.html?file=http://s1.doc.edu.vn";
 //    public static final String replaceURL = "http://triethoc.edu.vn/resources/uploaded/TrietHoc/Files/";
-    public static final String replaceURL = "http://triethoc.edu.vn/resources/uploaded/TrietHoc/Files/";
+//    public static final String replaceURL = "http://triethoc.edu.vn/resources/uploaded/TrietHoc/Files/";
+    public static final String replaceURL = "";
     public static final String folder = "D:\\home\\java\\data\\";
     public static final int sleepDownload = 5;
     private final static Logger logger = LoggerFactory.getLogger(WorkerDownloadMedia.class);

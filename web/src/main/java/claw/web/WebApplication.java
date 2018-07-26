@@ -1,20 +1,7 @@
 package claw.web;
 
-import claw.web.dbclawler.entity.BodyParse;
-import claw.web.dbclawler.entity.Entry;
-import claw.web.dbclawler.entity.EntryFilter;
-import claw.web.dbclawler.entity.TextParse;
-import claw.web.dbclawler.repository.BodyParseRepository;
-import claw.web.dbclawler.repository.EntryFilterRepository;
-import claw.web.dbclawler.repository.EntryRepository;
-import claw.web.dbclawler.repository.TextParseRepository;
-import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.Bean;
-
-import java.util.Map;
-import java.util.TreeMap;
 
 @SpringBootApplication
 public class WebApplication {

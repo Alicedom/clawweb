@@ -2,166 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="a090f264-6d56-4146-b782-6e3148371828" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_2_7_9.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_13.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_1_Final.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_2_17_Final.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_2_Final.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_22_0_GA.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_3_Final.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_0_3_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_0_3_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_0_3_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_0_8_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_0_7_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_7_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_0_7_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/claw/web/data/fulldata/Body.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/claw/web/data/fulldata/Text.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/claw/web/dbclawler" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/claw/web/dbclawler/entity" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/claw/web/dbclawler/entity/BodyParse.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/claw/web/dbclawler/entity/Entry.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/claw/web/dbclawler/entity/EntryFilter.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/claw/web/dbclawler/entity/TextFilter.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/claw/web/dbclawler/entity/TextParse.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/claw/web/dbclawler/repository" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/claw/web/dbclawler/repository/BodyParseRepository.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/claw/web/dbclawler/repository/EntryFilterRepository.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/claw/web/dbclawler/repository/EntryRepository.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/claw/web/dbclawler/repository/TextFilterRepository.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/claw/web/dbclawler/repository/TextParseRepository.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/claw/web/dbclawler/repository/BodyParseService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/claw/web/dbclawler/repository/TextParseService.java" />
       <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/claw/web/dbclawler/service" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/claw/web/test/JsoupDownloadFile.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/claw/web/test/NewTask.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/claw/web/test/TestDuplicateKeyMap.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/claw/web/test/TestJsoupUTF8src.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/claw/web/dbclawler/service/NewTaskService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/claw/web/dbclawler/service/TaskParseService.java" />
       <change beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources" />
       <change beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/annotations" />
       <change beforePath="" afterPath="$PROJECT_DIR$/target/generated-test-sources" />
       <change beforePath="" afterPath="$PROJECT_DIR$/target/generated-test-sources/test-annotations" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_6.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_6.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_6.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_6.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_6.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_31.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_31.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_31.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_31.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_31.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_31.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_10_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_10_Final.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_0_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_0_3_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_0_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_0_3_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_0_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_0_3_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_0_7_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_0_7_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_7_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_7_RELEASE.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/lib" afterPath="" />
       <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/META-INF" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/main/java/claw/web/WebApplication.java" afterPath="$PROJECT_DIR$/src/main/java/claw/web/WebApplication.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/claw/web/api/entity/WpLinks.java" afterPath="$PROJECT_DIR$/src/main/java/claw/web/api/entity/WpLinks.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/claw/web/api/entity/WpOptions.java" afterPath="$PROJECT_DIR$/src/main/java/claw/web/api/entity/WpOptions.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/claw/web/api/entity/WpLinks.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/claw/web/api/entity/WpOptions.java" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/main/java/claw/web/api/entity/WpPostmeta.java" afterPath="$PROJECT_DIR$/src/main/java/claw/web/api/entity/WpPostmeta.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/claw/web/api/entity/WpPosts.java" afterPath="$PROJECT_DIR$/src/main/java/claw/web/api/entity/WpPosts.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/claw/web/api/entity/WpTermRelationships.java" afterPath="$PROJECT_DIR$/src/main/java/claw/web/api/entity/WpTermRelationships.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/claw/web/api/entity/WpTermTaxonomy.java" afterPath="$PROJECT_DIR$/src/main/java/claw/web/api/entity/WpTermTaxonomy.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/claw/web/api/entity/WpTermmeta.java" afterPath="$PROJECT_DIR$/src/main/java/claw/web/api/entity/WpTermmeta.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/claw/web/api/entity/WpTerms.java" afterPath="$PROJECT_DIR$/src/main/java/claw/web/api/entity/WpTerms.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/claw/web/api/entity/WpUsermeta.java" afterPath="$PROJECT_DIR$/src/main/java/claw/web/api/entity/WpUsermeta.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/claw/web/api/entity/WpUsers.java" afterPath="$PROJECT_DIR$/src/main/java/claw/web/api/entity/WpUsers.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/claw/web/api/repository/WpPostsRepository.java" afterPath="$PROJECT_DIR$/src/main/java/claw/web/api/repository/WpPostsRepository.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/claw/web/article" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/claw/web/data/entry/Href.java" afterPath="$PROJECT_DIR$/src/main/java/claw/web/data/entry/Href.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/claw/web/data/entry/Src.java" afterPath="$PROJECT_DIR$/src/main/java/claw/web/data/entry/Src.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/claw/web/data/fulldata/Article.java" afterPath="$PROJECT_DIR$/src/main/java/claw/web/data/fulldata/Article.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/claw/web/data/fulldata/Main.java" afterPath="$PROJECT_DIR$/src/test/java/claw/web/test/MainRest.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/claw/web/data/fulldata/StoredProcedureExample.java" afterPath="$PROJECT_DIR$/src/main/java/claw/web/queue/StoredProcedureExample.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/claw/web/data/media" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/claw/web/data/shortdata/Utils.java" afterPath="$PROJECT_DIR$/src/main/java/claw/web/data/shortdata/Utils.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/claw/web/api/entity/WpTermTaxonomy.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/claw/web/api/entity/WpTermmeta.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/claw/web/api/entity/WpTerms.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/claw/web/api/entity/WpUsermeta.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/claw/web/api/entity/WpUsers.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/claw/web/api/repository" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/claw/web/dbclawler/repository/BodyParseRepository.java" afterPath="$PROJECT_DIR$/src/main/java/claw/web/dbclawler/repository/BodyParseRepository.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/claw/web/dbclawler/repository/EntryRepository.java" afterPath="$PROJECT_DIR$/src/main/java/claw/web/dbclawler/repository/EntryRepository.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/claw/web/dbclawler/repository/TextParseRepository.java" afterPath="$PROJECT_DIR$/src/main/java/claw/web/dbclawler/repository/TextParseRepository.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/claw/web/queue/NewTask.java" afterPath="$PROJECT_DIR$/src/main/java/claw/web/queue/NewTask.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/claw/web/queue/Worker.java" afterPath="$PROJECT_DIR$/src/main/java/claw/web/queue/WorkerParse.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/claw/web/queue/WorkerArticle.java" afterPath="$PROJECT_DIR$/src/main/java/claw/web/queue/WorkerInsertArticle.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/claw/web/queue/WorkerMedia.java" afterPath="$PROJECT_DIR$/src/main/java/claw/web/queue/WorkerDownloadMedia.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/claw/web/JavaCheckIsEmpty.java" afterPath="$PROJECT_DIR$/src/test/java/claw/web/test/JavaCheckIsEmpty.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/claw/web/TestCssQueryMultiselector.java" afterPath="$PROJECT_DIR$/src/test/java/claw/web/test/TestCssQueryMultiselector.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/claw/web/WebApplicationTests.java" afterPath="$PROJECT_DIR$/src/test/java/claw/web/WebApplicationTests.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/claw/web/img/CloneImage.java" afterPath="$PROJECT_DIR$/src/test/java/claw/web/img/CloneImage.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/claw/web/queue/StoredProcedureExample.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/claw/web/queue/WorkerDownloadMedia.java" afterPath="$PROJECT_DIR$/src/main/java/claw/web/queue/WorkerDownloadMedia.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/claw/web/queue/WorkerInsertArticle.java" afterPath="$PROJECT_DIR$/src/main/java/claw/web/queue/WorkerInsertArticle.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/claw/web/queue/WorkerParse.java" afterPath="$PROJECT_DIR$/src/main/java/claw/web/queue/WorkerParse.java" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" afterPath="$PROJECT_DIR$/target/classes/application.properties" />
       <change beforePath="$PROJECT_DIR$/target/classes/claw/web/WebApplication.class" afterPath="$PROJECT_DIR$/target/classes/claw/web/WebApplication.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/claw/web/api/controller/CategoryController.class" afterPath="$PROJECT_DIR$/target/classes/claw/web/api/controller/CategoryController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/claw/web/api/service/Entry.class" afterPath="$PROJECT_DIR$/target/classes/claw/web/api/service/Entry.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/claw/web/data/connect/Html.class" afterPath="$PROJECT_DIR$/target/classes/claw/web/data/connect/Html.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/claw/web/data/entry/Attr.class" afterPath="$PROJECT_DIR$/target/classes/claw/web/data/entry/Attr.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/claw/web/data/entry/Href.class" afterPath="$PROJECT_DIR$/target/classes/claw/web/data/entry/Href.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/claw/web/data/entry/Src.class" afterPath="$PROJECT_DIR$/target/classes/claw/web/data/entry/Src.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/claw/web/data/entry/Url.class" afterPath="$PROJECT_DIR$/target/classes/claw/web/data/entry/Url.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/claw/web/data/fulldata/Article.class" afterPath="$PROJECT_DIR$/target/classes/claw/web/data/fulldata/Article.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/claw/web/data/fulldata/DataArticle.class" afterPath="$PROJECT_DIR$/target/classes/claw/web/data/fulldata/DataArticle.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/claw/web/data/shortdata/DataCategory.class" afterPath="$PROJECT_DIR$/target/classes/claw/web/data/shortdata/DataCategory.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/claw/web/data/shortdata/Utils.class" afterPath="$PROJECT_DIR$/target/classes/claw/web/data/shortdata/Utils.class" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-claw.web.WebApplicationTests.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-claw.web.WebApplicationTests.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-claw.web.data.html.HtmlTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-claw.web.data.html.HtmlTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-claw.web.html.HtmlTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-claw.web.html.HtmlTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/claw.web.WebApplicationTests.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/claw.web.WebApplicationTests.txt" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/claw.web.data.html.HtmlTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/claw.web.data.html.HtmlTest.txt" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/claw.web.html.HtmlTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/claw.web.html.HtmlTest.txt" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/claw/web/data/test/MainTestDataArticleGetBody.class" afterPath="$PROJECT_DIR$/target/test-classes/claw/web/data/test/MainTestDataArticleGetBody.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/claw/web/data/test/ReplaceHrefAndSrc.class" afterPath="$PROJECT_DIR$/target/test-classes/claw/web/data/test/ReplaceHrefAndSrc.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/claw/web/data/test/TestRemove.class" afterPath="$PROJECT_DIR$/target/test-classes/claw/web/data/test/TestRemove.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/claw/web/data/test/TestReplace.class" afterPath="$PROJECT_DIR$/target/test-classes/claw/web/data/test/TestReplace.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/claw/web/data/test/img/CloneImage$DownloadImage1.class" afterPath="$PROJECT_DIR$/target/test-classes/claw/web/data/test/img/CloneImage$DownloadImage1.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/claw/web/data/test/img/CloneImage$DownloadImage2.class" afterPath="$PROJECT_DIR$/target/test-classes/claw/web/data/test/img/CloneImage$DownloadImage2.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/claw/web/data/test/img/CloneImage.class" afterPath="$PROJECT_DIR$/target/test-classes/claw/web/data/test/img/CloneImage.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/claw/web/data/test/jsou/img/CloneImage$DownloadImage1.class" afterPath="$PROJECT_DIR$/target/test-classes/claw/web/data/test/jsou/img/CloneImage$DownloadImage1.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/claw/web/data/test/jsou/img/CloneImage$DownloadImage2.class" afterPath="$PROJECT_DIR$/target/test-classes/claw/web/data/test/jsou/img/CloneImage$DownloadImage2.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/claw/web/data/test/jsou/img/CloneImage.class" afterPath="$PROJECT_DIR$/target/test-classes/claw/web/data/test/jsou/img/CloneImage.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/claw/web/data/test/jsou/img/Main.class" afterPath="$PROJECT_DIR$/target/test-classes/claw/web/data/test/jsou/img/Main.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/claw/web/data/test/jsou/learnforfun/Clone$DownloadFile.class" afterPath="$PROJECT_DIR$/target/test-classes/claw/web/data/test/jsou/learnforfun/Clone$DownloadFile.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/claw/web/data/test/jsou/learnforfun/Clone.class" afterPath="$PROJECT_DIR$/target/test-classes/claw/web/data/test/jsou/learnforfun/Clone.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/claw/web/data/test/jsou/learnforfun/Main.class" afterPath="$PROJECT_DIR$/target/test-classes/claw/web/data/test/jsou/learnforfun/Main.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/claw/web/data/test/jsou/text/CloneContent.class" afterPath="$PROJECT_DIR$/target/test-classes/claw/web/data/test/jsou/text/CloneContent.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/claw/web/data/test/jsou/text/Main.class" afterPath="$PROJECT_DIR$/target/test-classes/claw/web/data/test/jsou/text/Main.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/claw/web/data/test/jsou/text/Ra2.class" afterPath="$PROJECT_DIR$/target/test-classes/claw/web/data/test/jsou/text/Ra2.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/claw/web/data/test/learnforfun/Clone$DownloadFile.class" afterPath="$PROJECT_DIR$/target/test-classes/claw/web/data/test/learnforfun/Clone$DownloadFile.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/claw/web/data/test/learnforfun/Clone.class" afterPath="$PROJECT_DIR$/target/test-classes/claw/web/data/test/learnforfun/Clone.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/claw/web/data/test/learnforfun/Main.class" afterPath="$PROJECT_DIR$/target/test-classes/claw/web/data/test/learnforfun/Main.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/claw/web/data/test/text/CloneContent.class" afterPath="$PROJECT_DIR$/target/test-classes/claw/web/data/test/text/CloneContent.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/claw/web/img/CloneImage$DownloadImage1.class" afterPath="$PROJECT_DIR$/target/test-classes/claw/web/img/CloneImage$DownloadImage1.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/claw/web/img/CloneImage$DownloadImage2.class" afterPath="$PROJECT_DIR$/target/test-classes/claw/web/img/CloneImage$DownloadImage2.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/claw/web/img/CloneImage.class" afterPath="$PROJECT_DIR$/target/test-classes/claw/web/img/CloneImage.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/claw/web/jsou/img/CloneImage$DownloadImage1.class" afterPath="$PROJECT_DIR$/target/test-classes/claw/web/jsou/img/CloneImage$DownloadImage1.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/claw/web/jsou/img/CloneImage$DownloadImage2.class" afterPath="$PROJECT_DIR$/target/test-classes/claw/web/jsou/img/CloneImage$DownloadImage2.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/claw/web/jsou/img/CloneImage.class" afterPath="$PROJECT_DIR$/target/test-classes/claw/web/jsou/img/CloneImage.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/claw/web/jsou/img/Main.class" afterPath="$PROJECT_DIR$/target/test-classes/claw/web/jsou/img/Main.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/claw/web/jsou/learnforfun/Clone$DownloadFile.class" afterPath="$PROJECT_DIR$/target/test-classes/claw/web/jsou/learnforfun/Clone$DownloadFile.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/claw/web/jsou/learnforfun/Clone.class" afterPath="$PROJECT_DIR$/target/test-classes/claw/web/jsou/learnforfun/Clone.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/claw/web/jsou/learnforfun/Main.class" afterPath="$PROJECT_DIR$/target/test-classes/claw/web/jsou/learnforfun/Main.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/claw/web/jsou/text/CloneContent.class" afterPath="$PROJECT_DIR$/target/test-classes/claw/web/jsou/text/CloneContent.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/claw/web/jsou/text/Main.class" afterPath="$PROJECT_DIR$/target/test-classes/claw/web/jsou/text/Main.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/claw/web/jsou/text/Ra2.class" afterPath="$PROJECT_DIR$/target/test-classes/claw/web/jsou/text/Ra2.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/claw/web/learnforfun/Clone$DownloadFile.class" afterPath="$PROJECT_DIR$/target/test-classes/claw/web/learnforfun/Clone$DownloadFile.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/claw/web/learnforfun/Clone.class" afterPath="$PROJECT_DIR$/target/test-classes/claw/web/learnforfun/Clone.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/claw/web/learnforfun/Main.class" afterPath="$PROJECT_DIR$/target/test-classes/claw/web/learnforfun/Main.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/claw/web/queue/NewTask$DownloadFileRunnable.class" afterPath="$PROJECT_DIR$/target/classes/claw/web/queue/NewTask$DownloadFileRunnable.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/claw/web/queue/NewTask.class" afterPath="$PROJECT_DIR$/target/classes/claw/web/queue/NewTask.class" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/claw/web/test/GetHref.class" afterPath="$PROJECT_DIR$/target/test-classes/claw/web/test/GetHref.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/claw/web/test/ReplaceHrefAndSrc.class" afterPath="$PROJECT_DIR$/target/test-classes/claw/web/test/ReplaceHrefAndSrc.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/claw/web/test/TestReplace.class" afterPath="$PROJECT_DIR$/target/test-classes/claw/web/test/TestReplace.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/claw/web/text/CloneContent.class" afterPath="$PROJECT_DIR$/target/test-classes/claw/web/text/CloneContent.class" />
-      <change beforePath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT.jar" />
-      <change beforePath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT.jar.original" afterPath="$PROJECT_DIR$/target/web-0.0.1-SNAPSHOT.jar.original" />
-      <change beforePath="$PROJECT_DIR$/web.iml" afterPath="$PROJECT_DIR$/web.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -189,19 +68,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Src.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/data/entry/Src.java">
+      <file leaf-file-name="WpPostmeta.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/api/entity/WpPostmeta.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="37">
-              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="300">
+              <caret line="15" column="29" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
               <folding>
-                <element signature="method#getFirstSource#0;class#Src#0" expanded="false" />
-                <element signature="method#getFirstSourceElements#0;class#Src#0" expanded="false" />
-                <element signature="method#getListOneSource#0;class#Src#0" expanded="false" />
-                <element signature="method#getListOneSourceElements#0;class#Src#0" expanded="false" />
-                <element signature="method#getListAllSourceRecursive#0;class#Src#0" expanded="false" />
-                <element signature="method#getListAllSourceRecursive#1;class#Src#0" expanded="false" />
-                <element signature="method#getListAllSourceRecursiveElements#0;class#Src#0" expanded="false" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#390#391#0" expanded="true" />
+                <element signature="e#432#433#0" expanded="true" />
+                <element signature="e#468#469#0" expanded="true" />
+                <element signature="e#540#541#0" expanded="true" />
+                <element signature="e#569#570#0" expanded="true" />
+                <element signature="e#611#612#0" expanded="true" />
+                <element signature="e#647#648#0" expanded="true" />
+                <element signature="e#723#724#0" expanded="true" />
+                <element signature="e#753#754#0" expanded="true" />
+                <element signature="e#799#800#0" expanded="true" />
+                <element signature="e#837#838#0" expanded="true" />
+                <element signature="e#917#918#0" expanded="true" />
+                <element signature="e#949#950#0" expanded="true" />
+                <element signature="e#999#1000#0" expanded="true" />
+                <element signature="e#1041#1042#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -210,78 +98,91 @@
       <file leaf-file-name="WorkerDownloadMedia.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/queue/WorkerDownloadMedia.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="20" column="65" lean-forward="true" selection-start-line="20" selection-start-column="65" selection-end-line="20" selection-end-column="65" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WebApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/WebApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="75" column="1" lean-forward="true" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
+            <state relative-caret-position="133">
+              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding>
-                <element signature="e#790#791#0" expanded="true" />
-                <element signature="e#846#847#0" expanded="true" />
+                <element signature="method#main#0;class#WorkerDownloadMedia#0" expanded="false" />
+                <element signature="method#doWorkDownload#0;class#WorkerDownloadMedia#0" expanded="false" />
+                <element signature="method#getFile#0;class#WorkerDownloadMedia#0" expanded="false" />
+                <element signature="class#Download#0;class#WorkerDownloadMedia#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WorkerInsertArticle.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="WpTermRelationships.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/api/entity/WpTermRelationships.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#367#368#0" expanded="true" />
+                <element signature="e#398#399#0" expanded="true" />
+                <element signature="e#444#445#0" expanded="true" />
+                <element signature="e#484#485#0" expanded="true" />
+                <element signature="e#573#574#0" expanded="true" />
+                <element signature="e#610#611#0" expanded="true" />
+                <element signature="e#668#669#0" expanded="true" />
+                <element signature="e#720#721#0" expanded="true" />
+                <element signature="e#801#802#0" expanded="true" />
+                <element signature="e#833#834#0" expanded="true" />
+                <element signature="e#884#885#0" expanded="true" />
+                <element signature="e#926#927#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WorkerInsertArticle.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/queue/WorkerInsertArticle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+            <state relative-caret-position="313">
+              <caret line="78" column="28" lean-forward="false" selection-start-line="78" selection-start-column="28" selection-end-line="78" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#main#0;class#WorkerInsertArticle#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CategoryController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/api/controller/CategoryController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StoredProcedureExample.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/queue/StoredProcedureExample.java">
+      <file leaf-file-name="Entry.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/api/service/Entry.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Body.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/data/fulldata/Body.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="80">
-              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <file leaf-file-name="Text.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/data/fulldata/Text.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="30" column="38" lean-forward="false" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
-              <folding>
-                <marker date="1532527930077" expanded="true" signature="933:1195" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TextFilter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/dbclawler/entity/TextFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="22" column="76" lean-forward="false" selection-start-line="22" selection-start-column="76" selection-end-line="22" selection-end-column="76" />
-              <folding>
-                <element signature="method#TextFilter#1;class#TextFilter#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Href.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/data/entry/Href.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="820">
-              <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-              <folding>
-                <element signature="method#getListHrefRecursives#0;class#Href#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="540">
+              <caret line="42" column="25" lean-forward="false" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -289,25 +190,14 @@
       <file leaf-file-name="WorkerParse.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/queue/WorkerParse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-460">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="22" selection-end-column="41" />
+            <state relative-caret-position="880">
+              <caret line="164" column="34" lean-forward="false" selection-start-line="164" selection-start-column="34" selection-end-line="164" selection-end-column="34" />
               <folding>
+                <element signature="e#807#851#0" expanded="false" />
                 <element signature="method#main#0;class#WorkerParse#0" expanded="false" />
-                <element signature="class#2637:3251" expanded="false" />
+                <element signature="class#2986:3600" expanded="false" />
+                <element signature="method#doWork#0;class#WorkerParse#0" expanded="false" />
                 <element signature="method#uploadSrc#0;class#WorkerParse#0" expanded="false" />
-                <element signature="method#uploadArticle#0;class#WorkerParse#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NewTask.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/queue/NewTask.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="28" column="41" lean-forward="true" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -357,36 +247,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/claw/web/data/entry/Src.java" />
-        <option value="$PROJECT_DIR$/src/main/java/claw/web/queue/Worker.java" />
-        <option value="$PROJECT_DIR$/src/main/java/claw/web/data/fulldata/Article.java" />
-        <option value="$PROJECT_DIR$/src/main/java/claw/web/queue/WorkerParse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/claw/web/data/fulldata/MainRest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/claw/web/queue/StoredProcedureExample.java" />
-        <option value="$PROJECT_DIR$/src/test/java/claw/web/test/TestDuplicateKeyMap.java" />
-        <option value="$PROJECT_DIR$/src/test/java/claw/web/test/JsoupDownloadFile.java" />
-        <option value="$PROJECT_DIR$/src/test/java/claw/web/img/CloneImage.java" />
         <option value="$PROJECT_DIR$/src/main/java/claw/web/api/repository/WpPostsRepository.java" />
         <option value="$PROJECT_DIR$/src/test/java/claw/web/test/TestJsoupUTF8src.java" />
         <option value="$PROJECT_DIR$/src/test/java/claw/web/test/TestCssQueryMultiselector.java" />
         <option value="$PROJECT_DIR$/src/main/java/claw/web/entity/BodyParse.java" />
         <option value="$PROJECT_DIR$/src/main/java/claw/web/api/service/Entry.java" />
         <option value="$PROJECT_DIR$/src/main/java/claw/web/api/controller/CategoryController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/claw/web/api/entity/WpLinks.java" />
-        <option value="$PROJECT_DIR$/src/main/java/claw/web/api/entity/WpOptions.java" />
-        <option value="$PROJECT_DIR$/src/main/java/claw/web/api/entity/WpPostmeta.java" />
-        <option value="$PROJECT_DIR$/src/main/java/claw/web/api/entity/WpPosts.java" />
-        <option value="$PROJECT_DIR$/src/main/java/claw/web/api/entity/WpTermmeta.java" />
-        <option value="$PROJECT_DIR$/src/main/java/claw/web/api/entity/WpTermRelationships.java" />
-        <option value="$PROJECT_DIR$/src/main/java/claw/web/api/entity/WpTerms.java" />
-        <option value="$PROJECT_DIR$/src/main/java/claw/web/api/entity/WpTermTaxonomy.java" />
-        <option value="$PROJECT_DIR$/src/main/java/claw/web/api/entity/WpUsermeta.java" />
-        <option value="$PROJECT_DIR$/src/main/java/claw/web/api/entity/WpUsers.java" />
         <option value="$PROJECT_DIR$/src/main/java/META-INF/persistence.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/claw/web/dbclawler/repository/BodyParseRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/claw/web/dbclawler/repository/TextFilterRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/claw/web/dbclawler/repository/TextParseRepository.java" />
         <option value="$PROJECT_DIR$/src/test/java/claw/web/test/NewTask.java" />
         <option value="$PROJECT_DIR$/src/main/java/claw/web/data/fulldata/Body.java" />
         <option value="$PROJECT_DIR$/src/main/java/claw/web/data/shortdata/Utils.java" />
@@ -395,7 +263,6 @@
         <option value="$PROJECT_DIR$/src/main/java/claw/web/data/fulldata/Text.java" />
         <option value="$PROJECT_DIR$/src/main/java/claw/web/dbclawler/repository/EntryParseRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/claw/web/dbclawler/entity/EntryParse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/claw/web/dbclawler/repository/EntryRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/claw/web/dbclawler/entity/Entry.java" />
         <option value="$PROJECT_DIR$/src/main/java/claw/web/dbclawler/entity/TextParse.java" />
         <option value="$PROJECT_DIR$/src/main/java/claw/web/dbclawler/entity/BodyParse.java" />
@@ -406,8 +273,31 @@
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/claw/web/WebApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/claw/web/data/entry/Href.java" />
+        <option value="$PROJECT_DIR$/src/main/java/claw/web/dbclawler/repository/EntryRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/claw/web/dbclawler/service/TaskCategory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/claw/web/dbclawler/repository/TextParseRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/claw/web/dbclawler/repository/TextParseService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/claw/web/dbclawler/repository/BodyParseRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/claw/web/dbclawler/repository/BodyParseService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/claw/web/dbclawler/service/TaskCategoryService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/claw/web/dbclawler/service/NewTaskService.java" />
         <option value="$PROJECT_DIR$/src/main/java/claw/web/queue/WorkerDownloadMedia.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/claw/web/queue/NewTask.java" />
+        <option value="$PROJECT_DIR$/src/main/java/claw/web/queue/WorkerParse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/claw/web/api/entity/WpPosts.java" />
+        <option value="$PROJECT_DIR$/src/main/java/claw/web/queue/StoredProcedureExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/claw/web/dbclawler/service/TaskParseService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/claw/web/api/entity/WpLinks.java" />
+        <option value="$PROJECT_DIR$/src/main/java/claw/web/api/entity/WpOptions.java" />
+        <option value="$PROJECT_DIR$/src/main/java/claw/web/api/entity/WpPostmeta.java" />
+        <option value="$PROJECT_DIR$/src/main/java/claw/web/api/entity/WpTermmeta.java" />
+        <option value="$PROJECT_DIR$/src/main/java/claw/web/api/entity/WpTermRelationships.java" />
+        <option value="$PROJECT_DIR$/src/main/java/claw/web/api/entity/WpTerms.java" />
+        <option value="$PROJECT_DIR$/src/main/java/claw/web/api/entity/WpTermTaxonomy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/claw/web/api/entity/WpUsermeta.java" />
+        <option value="$PROJECT_DIR$/src/main/java/claw/web/api/entity/WpUsers.java" />
+        <option value="$PROJECT_DIR$/src/main/java/claw/web/queue/WorkerInsertArticle.java" />
       </list>
     </option>
   </component>
@@ -481,9 +371,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -535,7 +424,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="claw" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="web" type="b2602c69:ProjectViewProjectNode" />
@@ -546,7 +435,6 @@
               <item name="claw" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="entry" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="web" type="b2602c69:ProjectViewProjectNode" />
@@ -557,6 +445,17 @@
               <item name="claw" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="dbclawler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="claw" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="dbclawler" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="web" type="b2602c69:ProjectViewProjectNode" />
@@ -568,6 +467,17 @@
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="dbclawler" type="462c0819:PsiDirectoryNode" />
               <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="claw" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="dbclawler" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="web" type="b2602c69:ProjectViewProjectNode" />
@@ -590,6 +500,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -647,31 +558,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.WebApplication">
+  <component name="RunManager" selected="Application.StoredProcedureExample">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
-    </configuration>
-    <configuration name="CloneImage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="claw.web.img.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="claw.web.img.CloneImage" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="web" />
-      <envs />
     </configuration>
     <configuration name="GetHref" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -692,14 +584,14 @@
       <module name="web" />
       <envs />
     </configuration>
-    <configuration name="JsoupDownloadFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="NewTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="claw.web.test.*" />
+          <option name="PATTERN" value="claw.web.queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="claw.web.test.JsoupDownloadFile" />
+      <option name="MAIN_CLASS_NAME" value="claw.web.queue.NewTask" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -711,14 +603,14 @@
       <module name="web" />
       <envs />
     </configuration>
-    <configuration name="TestDuplicateKeyMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="StoredProcedureExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="claw.web.test.*" />
+          <option name="PATTERN" value="claw.web.queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="claw.web.test.TestDuplicateKeyMap" />
+      <option name="MAIN_CLASS_NAME" value="claw.web.queue.StoredProcedureExample" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -730,14 +622,52 @@
       <module name="web" />
       <envs />
     </configuration>
-    <configuration name="TestJsoupUTF8src" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="WorkerDownloadMedia" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="claw.web.test.*" />
+          <option name="PATTERN" value="claw.web.queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="claw.web.test.TestJsoupUTF8src" />
+      <option name="MAIN_CLASS_NAME" value="claw.web.queue.WorkerDownloadMedia" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="web" />
+      <envs />
+    </configuration>
+    <configuration name="WorkerInsertArticle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="claw.web.queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="claw.web.queue.WorkerInsertArticle" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="web" />
+      <envs />
+    </configuration>
+    <configuration name="WorkerParse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="claw.web.queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="claw.web.queue.WorkerParse" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -762,31 +692,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
-    </configuration>
-    <configuration name="WebApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="claw.web.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="web" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="claw.web" />
-      <option name="MAIN_CLASS_NAME" value="claw.web.WebApplicationTests" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -856,19 +761,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.WebApplication" />
-      <item index="1" class="java.lang.String" itemvalue="Application.TestDuplicateKeyMap" />
-      <item index="2" class="java.lang.String" itemvalue="Application.JsoupDownloadFile" />
-      <item index="3" class="java.lang.String" itemvalue="Application.TestJsoupUTF8src" />
-      <item index="4" class="java.lang.String" itemvalue="Application.CloneImage" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.WebApplicationTests" />
+      <item index="1" class="java.lang.String" itemvalue="Application.NewTask" />
+      <item index="2" class="java.lang.String" itemvalue="Application.WorkerParse" />
+      <item index="3" class="java.lang.String" itemvalue="Application.WorkerDownloadMedia" />
+      <item index="4" class="java.lang.String" itemvalue="Application.WorkerInsertArticle" />
+      <item index="5" class="java.lang.String" itemvalue="Application.StoredProcedureExample" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.WebApplicationTests" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TestJsoupUTF8src" />
-        <item index="2" class="java.lang.String" itemvalue="Application.CloneImage" />
-        <item index="3" class="java.lang.String" itemvalue="Application.JsoupDownloadFile" />
-        <item index="4" class="java.lang.String" itemvalue="Application.TestDuplicateKeyMap" />
+        <item index="0" class="java.lang.String" itemvalue="Application.StoredProcedureExample" />
+        <item index="1" class="java.lang.String" itemvalue="Application.WorkerDownloadMedia" />
+        <item index="2" class="java.lang.String" itemvalue="Application.WorkerParse" />
+        <item index="3" class="java.lang.String" itemvalue="Application.NewTask" />
+        <item index="4" class="java.lang.String" itemvalue="Application.WorkerInsertArticle" />
       </list>
     </recent_temporary>
   </component>
@@ -928,6 +833,7 @@
       <workItem from="1532363788862" duration="22526000" />
       <workItem from="1532483236328" duration="2480000" />
       <workItem from="1532486093875" duration="33801000" />
+      <workItem from="1532533435931" duration="16600000" />
     </task>
     <servers />
   </component>
@@ -964,7 +870,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="187759000" />
+    <option name="totallyTimeSpent" value="204359000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="3" width="1922" height="1044" extended-state="0" />
@@ -986,14 +892,13 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3957159" sideWeight="0.71753246" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2874859" sideWeight="0.71753246" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25366405" sideWeight="0.6525974" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23051947" sideWeight="0.47764227" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33225107" sideWeight="0.47764227" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28517315" sideWeight="0.28297633" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43179256" sideWeight="0.4935065" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28517315" sideWeight="0.28297633" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1003,6 +908,7 @@
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" x="92" y="92" width="1736" height="856" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28950217" sideWeight="0.5223577" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43179256" sideWeight="0.4935065" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1013,185 +919,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="25" />
+      <option name="time" value="26" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/api/entity/WpOptions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="9" column="10" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/api/entity/WpPostmeta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="9" column="11" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/api/entity/WpPosts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="14" column="31" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="299" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/api/entity/WpTermmeta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="11" column="29" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/api/entity/WpTermRelationships.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="12" column="9" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/api/entity/WpTerms.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/api/entity/WpTermTaxonomy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="6" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/api/entity/WpUsermeta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/api/entity/WpUsers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="14" column="29" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/api/service/Entry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/META-INF/persistence.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.3.RELEASE/spring-boot-autoconfigure-2.0.3.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="491" column="43" lean-forward="false" selection-start-line="491" selection-start-column="43" selection-end-line="491" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-233">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvnw">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-360">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvnw.cmd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-660">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1848">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/dbclawler/repository/TextFilterRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="12" column="1" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="12" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/dbclawler/repository/TextParseRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/claw/web/test/MainRest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/claw/web/test/NewTask.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/data/fulldata/Article.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -1221,14 +957,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1237,19 +965,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/data/fulldata/Replace.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/data/fulldata/Replace.java" />
     <entry file="file://$PROJECT_DIR$/LOG_PATH_IS_UNDEFINED/log.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1257,40 +977,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="52" column="9" lean-forward="false" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/data/fulldata/Body.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/data/fulldata/DataArticle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="46" column="17" lean-forward="false" selection-start-line="40" selection-start-column="16" selection-end-line="46" selection-end-column="17" />
-          <folding>
-            <element signature="method#setBody#0;class#DataArticle#0" expanded="false" />
-            <element signature="method#setSrc#0;class#DataArticle#0" expanded="false" />
-            <element signature="method#setSrc#1;class#DataArticle#0" expanded="false" />
-            <element signature="method#setHref#0;class#DataArticle#0" expanded="false" />
-            <element signature="method#setHref#1;class#DataArticle#0" expanded="false" />
-            <element signature="method#getParseDataFromLink#0;class#DataArticle#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/dbclawler/repository/EntryRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="75" lean-forward="false" selection-start-line="10" selection-start-column="75" selection-end-line="10" selection-end-column="75" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1298,23 +984,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/data/fulldata/Text.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="42" column="25" lean-forward="false" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/dbclawler/repository/BodyParseRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1323,22 +992,22 @@
         <state relative-caret-position="200">
           <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
           <folding>
-            <element signature="e#1156#1157#0" expanded="true" />
-            <element signature="e#1186#1187#0" expanded="true" />
-            <element signature="e#1229#1230#0" expanded="true" />
-            <element signature="e#1267#1268#0" expanded="true" />
-            <element signature="e#1642#1643#0" expanded="true" />
-            <element signature="e#1669#1670#0" expanded="true" />
-            <element signature="e#1709#1710#0" expanded="true" />
-            <element signature="e#1741#1742#0" expanded="true" />
-            <element signature="e#1778#1779#0" expanded="true" />
-            <element signature="e#1813#1814#0" expanded="true" />
-            <element signature="e#1867#1868#0" expanded="true" />
-            <element signature="e#1915#1916#0" expanded="true" />
-            <element signature="e#1949#1950#0" expanded="true" />
-            <element signature="e#1979#1980#0" expanded="true" />
-            <element signature="e#2026#2027#0" expanded="true" />
-            <element signature="e#2064#2065#0" expanded="true" />
+            <element signature="e#1156#1157#0" expanded="false" />
+            <element signature="e#1186#1187#0" expanded="false" />
+            <element signature="e#1229#1230#0" expanded="false" />
+            <element signature="e#1267#1268#0" expanded="false" />
+            <element signature="e#1642#1643#0" expanded="false" />
+            <element signature="e#1669#1670#0" expanded="false" />
+            <element signature="e#1709#1710#0" expanded="false" />
+            <element signature="e#1741#1742#0" expanded="false" />
+            <element signature="e#1778#1779#0" expanded="false" />
+            <element signature="e#1813#1814#0" expanded="false" />
+            <element signature="e#1867#1868#0" expanded="false" />
+            <element signature="e#1915#1916#0" expanded="false" />
+            <element signature="e#1949#1950#0" expanded="false" />
+            <element signature="e#1979#1980#0" expanded="false" />
+            <element signature="e#2026#2027#0" expanded="false" />
+            <element signature="e#2064#2065#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1356,26 +1025,26 @@
         <state relative-caret-position="1260">
           <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
           <folding>
-            <element signature="e#728#729#0" expanded="true" />
-            <element signature="e#762#763#0" expanded="true" />
-            <element signature="e#813#814#0" expanded="true" />
-            <element signature="e#859#860#0" expanded="true" />
-            <element signature="e#890#891#0" expanded="true" />
-            <element signature="e#920#921#0" expanded="true" />
-            <element signature="e#963#964#0" expanded="true" />
-            <element signature="e#1001#1002#0" expanded="true" />
-            <element signature="e#1038#1039#0" expanded="true" />
-            <element signature="e#1071#1072#0" expanded="true" />
-            <element signature="e#1123#1124#0" expanded="true" />
-            <element signature="e#1167#1168#0" expanded="true" />
-            <element signature="e#1194#1195#0" expanded="true" />
-            <element signature="e#1221#1222#0" expanded="true" />
-            <element signature="e#1258#1259#0" expanded="true" />
-            <element signature="e#1290#1291#0" expanded="true" />
-            <element signature="e#1328#1329#0" expanded="true" />
-            <element signature="e#1362#1363#0" expanded="true" />
-            <element signature="e#1416#1417#0" expanded="true" />
-            <element signature="e#1462#1463#0" expanded="true" />
+            <element signature="e#728#729#0" expanded="false" />
+            <element signature="e#762#763#0" expanded="false" />
+            <element signature="e#813#814#0" expanded="false" />
+            <element signature="e#859#860#0" expanded="false" />
+            <element signature="e#890#891#0" expanded="false" />
+            <element signature="e#920#921#0" expanded="false" />
+            <element signature="e#963#964#0" expanded="false" />
+            <element signature="e#1001#1002#0" expanded="false" />
+            <element signature="e#1038#1039#0" expanded="false" />
+            <element signature="e#1071#1072#0" expanded="false" />
+            <element signature="e#1123#1124#0" expanded="false" />
+            <element signature="e#1167#1168#0" expanded="false" />
+            <element signature="e#1194#1195#0" expanded="false" />
+            <element signature="e#1221#1222#0" expanded="false" />
+            <element signature="e#1258#1259#0" expanded="false" />
+            <element signature="e#1290#1291#0" expanded="false" />
+            <element signature="e#1328#1329#0" expanded="false" />
+            <element signature="e#1362#1363#0" expanded="false" />
+            <element signature="e#1416#1417#0" expanded="false" />
+            <element signature="e#1462#1463#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1408,21 +1077,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/dbclawler/repository/EntryFilterRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
+        <state relative-caret-position="600">
           <caret line="30" column="38" lean-forward="false" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
           <folding>
             <marker date="1532527930077" expanded="true" signature="933:1195" ph="..." />
@@ -1430,20 +1090,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/WebApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="75" column="1" lean-forward="true" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
-          <folding>
-            <element signature="e#790#791#0" expanded="true" />
-            <element signature="e#846#847#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/dbclawler/entity/TextFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
+        <state relative-caret-position="440">
           <caret line="22" column="76" lean-forward="false" selection-start-line="22" selection-start-column="76" selection-end-line="22" selection-end-column="76" />
           <folding>
             <element signature="method#TextFilter#1;class#TextFilter#0" expanded="false" />
@@ -1453,7 +1102,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/data/entry/Src.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
+        <state relative-caret-position="80">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
             <element signature="method#getFirstSource#0;class#Src#0" expanded="false" />
@@ -1469,57 +1118,452 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/data/entry/Href.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="820">
-          <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+        <state relative-caret-position="180">
+          <caret line="48" column="31" lean-forward="false" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
           <folding>
             <element signature="method#getListHrefRecursives#0;class#Href#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/queue/StoredProcedureExample.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/dbclawler/repository/EntryRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/queue/WorkerParse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-460">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="22" selection-end-column="41" />
+        <state relative-caret-position="280">
+          <caret line="14" column="36" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="36" />
           <folding>
-            <element signature="method#main#0;class#WorkerParse#0" expanded="false" />
-            <element signature="class#2637:3251" expanded="false" />
-            <element signature="method#uploadSrc#0;class#WorkerParse#0" expanded="false" />
-            <element signature="method#uploadArticle#0;class#WorkerParse#0" expanded="false" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/queue/WorkerInsertArticle.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/dbclawler/repository/EntryFilterRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        <state relative-caret-position="260">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/queue/WorkerDownloadMedia.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/dbclawler/repository/TextFilterRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="20" column="65" lean-forward="true" selection-start-line="20" selection-start-column="65" selection-end-line="20" selection-end-column="65" />
+        <state relative-caret-position="80">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/dbclawler/repository/BodyParseRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/data/fulldata/DataArticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="54" column="20" lean-forward="false" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
+          <folding>
+            <element signature="method#setSrc#0;class#DataArticle#0" expanded="false" />
+            <element signature="method#setSrc#1;class#DataArticle#0" expanded="false" />
+            <element signature="method#setHref#0;class#DataArticle#0" expanded="false" />
+            <element signature="method#setHref#1;class#DataArticle#0" expanded="false" />
+            <element signature="method#getParseDataFromLink#0;class#DataArticle#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/dbclawler/repository/TextParseRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="15" column="34" lean-forward="false" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/dbclawler/repository/BodyParseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/dbclawler/repository/TextParseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="11" lean-forward="false" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/WebApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="35" column="2" lean-forward="false" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="2" />
+          <folding>
+            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="85" column="0" lean-forward="false" selection-start-line="85" selection-start-column="0" selection-end-line="90" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/queue/NewTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="28" column="41" lean-forward="true" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+        <state relative-caret-position="404">
+          <caret line="38" column="61" lean-forward="true" selection-start-line="38" selection-start-column="61" selection-end-line="38" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/dbclawler/service/TaskParseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="73" column="11" lean-forward="false" selection-start-line="73" selection-start-column="11" selection-end-line="73" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#uploadSrc#0;class#TaskParseService#0" expanded="false" />
+            <element signature="method#uploadArticle#0;class#TaskParseService#0" expanded="false" />
+            <element signature="method#startWorkingParseMain#0;class#TaskParseService#0" expanded="false" />
+            <element signature="method#doWork#0;class#TaskParseService#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/dbclawler/service/NewTaskService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="27" column="13" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#startGetEntry#0;class#NewTaskService#0" expanded="false" />
+            <element signature="method#sendEntry#0;class#NewTaskService#0" expanded="false" />
+            <element signature="class#EntryRunnable#0;class#NewTaskService#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/data/fulldata/Article.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="45" column="24" lean-forward="false" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
+          <folding>
+            <element signature="e#1102#1103#0" expanded="true" />
+            <element signature="e#1132#1133#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/api/entity/WpPosts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#981#982#0" expanded="true" />
+            <element signature="e#1006#1007#0" expanded="true" />
+            <element signature="e#1040#1041#0" expanded="true" />
+            <element signature="e#1068#1069#0" expanded="true" />
+            <element signature="e#1148#1149#0" expanded="true" />
+            <element signature="e#1181#1182#0" expanded="true" />
+            <element signature="e#1231#1232#0" expanded="true" />
+            <element signature="e#1275#1276#0" expanded="true" />
+            <element signature="e#1356#1357#0" expanded="true" />
+            <element signature="e#1387#1388#0" expanded="true" />
+            <element signature="e#1438#1439#0" expanded="true" />
+            <element signature="e#1478#1479#0" expanded="true" />
+            <element signature="e#1566#1567#0" expanded="true" />
+            <element signature="e#1600#1601#0" expanded="true" />
+            <element signature="e#1657#1658#0" expanded="true" />
+            <element signature="e#1703#1704#0" expanded="true" />
+            <element signature="e#1787#1788#0" expanded="true" />
+            <element signature="e#1821#1822#0" expanded="true" />
+            <element signature="e#1875#1876#0" expanded="true" />
+            <element signature="e#1921#1922#0" expanded="true" />
+            <element signature="e#2001#2002#0" expanded="true" />
+            <element signature="e#2033#2034#0" expanded="true" />
+            <element signature="e#2083#2084#0" expanded="true" />
+            <element signature="e#2125#2126#0" expanded="true" />
+            <element signature="e#2209#2210#0" expanded="true" />
+            <element signature="e#2243#2244#0" expanded="true" />
+            <element signature="e#2297#2298#0" expanded="true" />
+            <element signature="e#2343#2344#0" expanded="true" />
+            <element signature="e#2425#2426#0" expanded="true" />
+            <element signature="e#2458#2459#0" expanded="true" />
+            <element signature="e#2510#2511#0" expanded="true" />
+            <element signature="e#2554#2555#0" expanded="true" />
+            <element signature="e#2642#2643#0" expanded="true" />
+            <element signature="e#2678#2679#0" expanded="true" />
+            <element signature="e#2736#2737#0" expanded="true" />
+            <element signature="e#2786#2787#0" expanded="true" />
+            <element signature="e#2868#2869#0" expanded="true" />
+            <element signature="e#2901#2902#0" expanded="true" />
+            <element signature="e#2953#2954#0" expanded="true" />
+            <element signature="e#2997#2998#0" expanded="true" />
+            <element signature="e#3083#3084#0" expanded="true" />
+            <element signature="e#3118#3119#0" expanded="true" />
+            <element signature="e#3174#3175#0" expanded="true" />
+            <element signature="e#3222#3223#0" expanded="true" />
+            <element signature="e#3300#3301#0" expanded="true" />
+            <element signature="e#3331#3332#0" expanded="true" />
+            <element signature="e#3379#3380#0" expanded="true" />
+            <element signature="e#3419#3420#0" expanded="true" />
+            <element signature="e#3493#3494#0" expanded="true" />
+            <element signature="e#3522#3523#0" expanded="true" />
+            <element signature="e#3566#3567#0" expanded="true" />
+            <element signature="e#3602#3603#0" expanded="true" />
+            <element signature="e#3675#3676#0" expanded="true" />
+            <element signature="e#3704#3705#0" expanded="true" />
+            <element signature="e#3748#3749#0" expanded="true" />
+            <element signature="e#3784#3785#0" expanded="true" />
+            <element signature="e#3873#3874#0" expanded="true" />
+            <element signature="e#3908#3909#0" expanded="true" />
+            <element signature="e#3967#3968#0" expanded="true" />
+            <element signature="e#4015#4016#0" expanded="true" />
+            <element signature="e#4111#4112#0" expanded="true" />
+            <element signature="e#4149#4150#0" expanded="true" />
+            <element signature="e#4214#4215#0" expanded="true" />
+            <element signature="e#4268#4269#0" expanded="true" />
+            <element signature="e#4369#4370#0" expanded="true" />
+            <element signature="e#4411#4412#0" expanded="true" />
+            <element signature="e#4481#4482#0" expanded="true" />
+            <element signature="e#4543#4544#0" expanded="true" />
+            <element signature="e#4623#4624#0" expanded="true" />
+            <element signature="e#4656#4657#0" expanded="true" />
+            <element signature="e#4706#4707#0" expanded="true" />
+            <element signature="e#4750#4751#0" expanded="true" />
+            <element signature="e#4819#4820#0" expanded="true" />
+            <element signature="e#4846#4847#0" expanded="true" />
+            <element signature="e#4886#4887#0" expanded="true" />
+            <element signature="e#4918#4919#0" expanded="true" />
+            <element signature="e#4999#5000#0" expanded="true" />
+            <element signature="e#5031#5032#0" expanded="true" />
+            <element signature="e#5082#5083#0" expanded="true" />
+            <element signature="e#5124#5125#0" expanded="true" />
+            <element signature="e#5202#5203#0" expanded="true" />
+            <element signature="e#5233#5234#0" expanded="true" />
+            <element signature="e#5281#5282#0" expanded="true" />
+            <element signature="e#5321#5322#0" expanded="true" />
+            <element signature="e#5408#5409#0" expanded="true" />
+            <element signature="e#5443#5444#0" expanded="true" />
+            <element signature="e#5499#5500#0" expanded="true" />
+            <element signature="e#5547#5548#0" expanded="true" />
+            <element signature="e#5631#5632#0" expanded="true" />
+            <element signature="e#5666#5667#0" expanded="true" />
+            <element signature="e#5720#5721#0" expanded="true" />
+            <element signature="e#5768#5769#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/api/entity/WpLinks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="29" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/api/entity/WpOptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="7" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/api/entity/WpPostmeta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="29" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#468#469#0" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
+            <element signature="e#569#570#0" expanded="true" />
+            <element signature="e#611#612#0" expanded="true" />
+            <element signature="e#647#648#0" expanded="true" />
+            <element signature="e#723#724#0" expanded="true" />
+            <element signature="e#753#754#0" expanded="true" />
+            <element signature="e#799#800#0" expanded="true" />
+            <element signature="e#837#838#0" expanded="true" />
+            <element signature="e#917#918#0" expanded="true" />
+            <element signature="e#949#950#0" expanded="true" />
+            <element signature="e#999#1000#0" expanded="true" />
+            <element signature="e#1041#1042#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/api/entity/WpTermmeta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="27" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/api/entity/WpTermRelationships.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#573#574#0" expanded="true" />
+            <element signature="e#610#611#0" expanded="true" />
+            <element signature="e#668#669#0" expanded="true" />
+            <element signature="e#720#721#0" expanded="true" />
+            <element signature="e#801#802#0" expanded="true" />
+            <element signature="e#833#834#0" expanded="true" />
+            <element signature="e#884#885#0" expanded="true" />
+            <element signature="e#926#927#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/api/entity/WpTerms.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="5" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/api/entity/WpTermTaxonomy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="38" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/api/entity/WpUsermeta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="23" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/api/entity/WpUsers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/api/controller/CategoryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/api/repository/WpPostsRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/api/service/Entry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/data/fulldata/Body.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/data/fulldata/Text.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="42" column="25" lean-forward="false" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/queue/StoredProcedureExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1480">
+          <caret line="74" column="9" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="74" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/queue/WorkerDownloadMedia.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <element signature="method#main#0;class#WorkerDownloadMedia#0" expanded="false" />
+            <element signature="method#doWorkDownload#0;class#WorkerDownloadMedia#0" expanded="false" />
+            <element signature="method#getFile#0;class#WorkerDownloadMedia#0" expanded="false" />
+            <element signature="class#Download#0;class#WorkerDownloadMedia#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/queue/WorkerParse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="880">
+          <caret line="164" column="34" lean-forward="false" selection-start-line="164" selection-start-column="34" selection-end-line="164" selection-end-column="34" />
+          <folding>
+            <element signature="e#807#851#0" expanded="false" />
+            <element signature="method#main#0;class#WorkerParse#0" expanded="false" />
+            <element signature="class#2986:3600" expanded="false" />
+            <element signature="method#doWork#0;class#WorkerParse#0" expanded="false" />
+            <element signature="method#uploadSrc#0;class#WorkerParse#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/claw/web/queue/WorkerInsertArticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="78" column="28" lean-forward="false" selection-start-line="78" selection-start-column="28" selection-end-line="78" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#main#0;class#WorkerInsertArticle#0" expanded="false" />
           </folding>
         </state>
       </provider>

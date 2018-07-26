@@ -10,4 +10,7 @@ public interface EntryRepository extends CrudRepository<Entry, Long>{
 
     @Query("select s from Entry s where s.entryId = ?1 and s.actived = true")
     List<Entry> findAllByEntryId(int entryId);
+
+    @Query("select s from Entry s where  s.actived = true")
+    List<Entry> findAllByActivedTrue();
 }

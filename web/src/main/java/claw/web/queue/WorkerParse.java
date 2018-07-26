@@ -2,6 +2,7 @@ package claw.web.queue;
 
 import claw.web.data.connect.Html;
 import claw.web.data.fulldata.DataArticle;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.rabbitmq.client.*;
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
@@ -38,10 +39,10 @@ public class WorkerParse {
 //        listBody.add("div.page-wrapper.page-wrapper2 > div > div.content-wrapper > div.content-des");
 
         removeURL = "http://doc.edu.vn/";
-        cssText.put("title", "body > section.content > h1");
-        cssText.put("date", "body > section.content > section.byline");
-        cssText.put("author", "#lname");
-        listBody.add("body > section.content");
+        cssText.put("title", "#ctl00_Default1__Body > div.page-wrapper.page-wrapper2 > div > div.content-wrapper > h1");
+        cssText.put("date", "#ctl00_Default1__Body > div.page-wrapper.page-wrapper2 > div > div.content-wrapper > div.content-date");
+        cssText.put("author", "#ctl00_Default1__Body > div.page-wrapper.page-wrapper2 > div > div.content-wrapper > div.content-des > table > tbody > tr > td > p:nth-child(2)");
+        listBody.add("#ctl00_Default1__Body > div.page-wrapper.page-wrapper2 > div");
         listBodyRemove = "body > section.content > section.meta, body > section.content > h1, body > section.content > section.byline";
     }
 
@@ -164,7 +165,7 @@ public class WorkerParse {
             channelArticle.queueDeclare(ARTICLE_QUEUE_NAME, false, false, false, null);
 
             try {
-                String message = source + "#" + dataArticle.getArticle().toString();
+                String message = source + "#" + new ObjectMapper().writeValueAsString(dataArticle);
                 logger.info(" [y] Sent '" + message + "' ");
                 channelArticle.basicPublish("", ARTICLE_QUEUE_NAME,
                         null,
